@@ -1,0 +1,29 @@
+/* กล่องการ์ด */
+.card {
+    border: 1px solid #ddd; /* เส้นขอบของกล่อง */
+    border-radius: 0.25rem; /* มุมโค้งของกล่อง */
+    overflow: hidden; /* ซ่อนส่วนที่เกินขอบของกล่อง */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* เงาของกล่อง */
+    min-height: 100px; /* ความสูงขั้นต่ำ */
+    display: flex;
+    flex-direction: column; /* ตั้งค่าทิศทางของเนื้อหาภายในกล่อง */
+    margin-top: 32px;
+    margin-right: 32px;
+    margin-bottom: 32px;
+    width: 60%;
+  }
+  
+  
+  /* ส่วนของเนื้อหาในกล่อง */
+  .card-body {
+    flex: 1; /* ทำให้ card-body ขยายเต็มที่ในแนวตั้ง */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* ปรับขนาดของปุ่ม */
+  .btn {
+    max-width: 100px; /* ความกว้างสูงสุดของปุ่ม */
+    width: 100%; /* ให้ปุ่มเต็มความกว้างของกล่อง */
+  }
+  

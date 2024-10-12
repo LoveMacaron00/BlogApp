@@ -1,0 +1,131 @@
+/* Style สำหรับ container */
+.container {
+  padding: 2rem;
+}
+
+/* ฟอร์มคอนโทรล */
+.form-control {
+  padding: 0.5rem 1rem;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  width: 100%;
+}
+
+/* ระยะห่างด้านล่าง */
+.mb-4 {
+  margin-bottom: 1.5rem;
+}
+
+/* Filter container ปรับเป็นแนวนอน */
+.filter-container {
+  display: flex;
+  flex-wrap: wrap; /* เพื่อให้ไอเทมที่มีขนาดเกินไปแสดงในบรรทัดถัดไป */
+  gap: 1rem; /* ช่องว่างระหว่างฟิลด์ */
+  margin-bottom: 1.5rem;
+}
+
+/* ตั้งค่าความกว้างของ label และ input */
+.filter-container label,
+.filter-container input {
+  flex: 1; /* ทำให้ทั้ง label และ input ใช้พื้นที่เท่ากัน */
+  max-width: 120px; /* ตั้งค่าความกว้างสูงสุด */
+}
+
+/* เพิ่มช่องว่างระหว่าง label กับ input */
+.filter-container label {
+  margin-right: 0.5rem;
+}
+
+.filter-container input {
+  width: 100%;
+}
+
+/* รายการบล็อกโพสต์ */
+.item-list {
+  list-style: none;
+  padding: 0;
+}
+
+/* รายการบล็อกโพสต์ */
+.item-container {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+  border: 1px solid #ddd;
+  border-radius: 0.25rem;
+  padding: 1rem;
+  background-color: #fff;
+}
+
+/* รูปภาพ */
+.item-image {
+  max-width: 350px;
+  margin-right: 1.5rem;
+  border-radius: 0.25rem;
+}
+
+/* เนื้อหาของบล็อกโพสต์ */
+.item-content {
+  flex: 1;
+}
+
+/* หัวข้อบล็อกโพสต์ */
+.item-content h2 {
+  margin-top: 0;
+}
+
+/* การจัดรูปแบบของปุ่มการนำทาง */
+.pagination {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+  border-radius: 0.25rem;
+}
+
+/* รายการเพจ */
+.page-item {
+  margin: 0 0.25rem;
+}
+
+/* ลิงก์เพจ */
+.page-link {
+  display: block;
+  padding: 0.5rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: center;
+  color: #007bff;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: #fff;
+}
+
+/* ลิงก์เพจที่เลือก */
+.page-link.active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* ลิงก์เพจที่ปิดใช้งาน */
+.page-link:disabled {
+  color: #6c757d;
+  cursor: not-allowed;
+}
+
+/* การจัดรูปแบบของ alerts */
+.alert {
+  padding: 1rem;
+  border-radius: 0.25rem;
+  margin-bottom: 1rem;
+}
+
+/* Alerts สีแดง */
+.alert-danger {
+  color: #721c24;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+}
